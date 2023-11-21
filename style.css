@@ -37,10 +37,16 @@ nav {
 header {
   background-color: #1f2937;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header-top {
   display: flex;
   justify-content: space-between;
   margin: 0 200px;
+  padding: 32px 0 0 0;
 }
 .header-body {
   display: flex;
@@ -48,6 +54,28 @@ header {
   align-items: center;
   padding: 50px 0;
   margin: 0 200px;
+}
+span {
+  display: inline;
+}
+.info-contanier {
+  display: flex;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+}
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 50px 0;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10%;
 }
 
 .btn {
