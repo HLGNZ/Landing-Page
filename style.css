@@ -10,13 +10,19 @@ body {
 }
 
 .logo,
-h1 {
+.title {
   color: #f9faf8;
 }
 .link,
-.seconde-text {
+.text,
+.btn {
   font-size: 18px;
   color: #e5e7eb;
+}
+.title,
+.text,
+.btn {
+  margin: 5px 0;
 }
 a {
   text-decoration: none;
@@ -43,7 +49,16 @@ header {
   padding: 50px 0;
   margin: 0 200px;
 }
-h1 {
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90px;
+  cursor: pointer;
+}
+.title {
   font-size: 48px;
   font-weight: 900;
 }
