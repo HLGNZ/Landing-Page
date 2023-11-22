@@ -55,9 +55,7 @@ main {
   padding: 50px 0;
   margin: 0 200px;
 }
-span {
-  display: inline;
-}
+
 .info-contanier {
   display: flex;
 }
