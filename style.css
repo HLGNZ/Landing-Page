@@ -14,8 +14,7 @@ header {
 .header-top {
   display: flex;
   justify-content: space-between;
-  margin: 0 200px;
-  padding: 32px 0 0 0;
+  padding: 46px 200px 100px 200px;
 }
 .link,
 .text,
@@ -48,8 +47,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0;
-  margin: 0 200px;
+  padding: 46px 200px 100px 200px;
 }
 .title {
   font-size: 48px;
@@ -80,6 +78,7 @@ main {
 }
 .info-contanier {
   display: flex;
+  gap: 20px;
 }
 .info-box {
   display: flex;
@@ -90,5 +89,10 @@ main {
   height: 100px;
   border: 3px solid #3882f6;
   border-radius: 10%;
+}
+.sub-text {
+  max-width: 18ch;
+  margin-top: 8px;
+  color: #1f2937;
 }
 /* ------------main-------------- */
