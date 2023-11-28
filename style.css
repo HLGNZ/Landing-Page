@@ -82,6 +82,7 @@ main {
 .info-contanier {
   display: flex;
   gap: 20px;
+  margin-bottom: 86px;
 }
 .info-box {
   display: flex;
@@ -97,5 +98,26 @@ main {
   max-width: 18ch;
   margin-top: 8px;
   color: #1f2937;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 50px 200px;
+}
+.Sign-up-section {
+  background-color: #3882f6;
+  width: 50%;
+  height: 25%;
+  margin: 100px 0;
+  border-radius: 8px;
+}
+.sign-up-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
 }
 /* ------------main-------------- */
