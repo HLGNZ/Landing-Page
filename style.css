@@ -3,7 +3,7 @@
 }
 body {
   height: 100vh;
-  font-family: Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ------------Header-------------- */
@@ -17,18 +17,19 @@ header {
   padding: 46px 200px 100px 200px;
 }
 .text {
-  max-width: 46ch;
+  max-width: 44ch;
 }
 .link,
 .text,
-.btn {
+.btn,
+.sign-btn {
   font-size: 18px;
   color: #e5e7eb;
 }
 .title,
 .text,
 .btn {
-  margin: 5px 0;
+  margin: 5px 0px;
 }
 a {
   text-decoration: none;
@@ -39,11 +40,15 @@ nav {
   display: flex;
   gap: 20px;
 }
-.logo {
+.logo,
+.author {
   font-size: 24px;
 }
 .logo,
-.title {
+.title,
+.sign-header,
+.sign-text,
+.copyright {
   color: #f9faf8;
 }
 .header-body {
@@ -54,9 +59,11 @@ nav {
 }
 .title {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bold;
+  padding-right: 8px;
 }
-.btn {
+.btn,
+.sign-btn {
   background-color: #3882f6;
   border: none;
   padding: 5px;
@@ -64,19 +71,25 @@ nav {
   width: 90px;
   cursor: pointer;
 }
+.sign-btn {
+  border: 2px solid #f9faf8;
+}
 
 /* ------------Header-------------- */
 
-/* ------------main-------------- */
+/* ------------Main-------------- */
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.quote,
 .info-header {
   font-size: 36px;
-  font-weight: 900;
   color: #1f2937;
+}
+.info-header {
+  font-weight: bold;
   margin: 50px 0;
 }
 .info-contanier {
@@ -100,8 +113,18 @@ main {
   color: #1f2937;
 }
 .quote-section {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
-  padding: 50px 200px;
+  padding: 64px 200px;
+}
+.quote {
+  font-weight: 300;
+  font-style: italic;
+  padding: 6%;
+}
+.author {
+  align-self: flex-end;
 }
 .Sign-up-section {
   background-color: #3882f6;
@@ -120,4 +143,14 @@ main {
   display: flex;
   flex-direction: column;
 }
-/* ------------main-------------- */
+/* ------------Main-------------- */
+/* ------------Footer-------------- */
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+/* ------------Footer-------------- */
